@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PositivityViewController: UIViewController {
     
     let numbers = ["1-2": "awful", "3-4":"bad", "5-6":"okay", "7-8":"good", "9-10":"great"]
     

@@ -16,6 +16,7 @@
 		18A445EA22DFC9D9003381FA /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A445E922DFC9D9003381FA /* AddPhotoViewController.swift */; };
 		18A445ED22DFCCBD003381FA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A445EB22DFCCBD003381FA /* Model.xcdatamodeld */; };
 		18A445EF22DFCE86003381FA /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A445EE22DFCE86003381FA /* PhotoDetailViewController.swift */; };
+		18A445F122DFE3BA003381FA /* ReflectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A445F022DFE3BA003381FA /* ReflectTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18A445E922DFC9D9003381FA /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		18A445EC22DFCCBD003381FA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		18A445EE22DFCE86003381FA /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		18A445F022DFE3BA003381FA /* ReflectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				18A445D222DF8746003381FA /* PositivityViewController.swift */,
 				18A445D422DF8746003381FA /* Main.storyboard */,
 				18A445E922DFC9D9003381FA /* AddPhotoViewController.swift */,
+				18A445F022DFE3BA003381FA /* ReflectTableViewController.swift */,
 				18A445E722DFA6F9003381FA /* PhotoTableViewController.swift */,
 				18A445EE22DFCE86003381FA /* PhotoDetailViewController.swift */,
 				18A445DA22DF8748003381FA /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				18A445EA22DFC9D9003381FA /* AddPhotoViewController.swift in Sources */,
 				18A445ED22DFCCBD003381FA /* Model.xcdatamodeld in Sources */,
 				18A445E822DFA6F9003381FA /* PhotoTableViewController.swift in Sources */,
+				18A445F122DFE3BA003381FA /* ReflectTableViewController.swift in Sources */,
 				18A445D122DF8746003381FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
