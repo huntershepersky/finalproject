@@ -185,7 +185,13 @@
                                     <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="R E F L E C T I O N   C O R N E R" id="vce-pb-sW3"/>
+                                    <navigationItem title="R E F L E C T I O N   C O R N E R" id="vce-pb-sW3">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; home" id="FEF-F9-YAK">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="8eF-eb-Jez"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -231,6 +237,11 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="H A P P Y  C O R N E R" id="hFF-vM-u39">
+                                    <barButtonItem key="leftBarButtonItem" title="&lt; home" id="LvN-f1-E2H">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="FMB-il-pOV"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem key="rightBarButtonItem" systemItem="add" id="LzR-pN-Wld">
                                         <connections>
                                             <segue destination="D3g-vc-1m6" kind="show" id="BF1-jH-WoV"/>
@@ -271,18 +282,15 @@
                                     <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="M U S I C    C O R N E R" id="cR6-AE-5Ug"/>
+                                    <navigationItem title="M U S I C    C O R N E R" id="cR6-AE-5Ug">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; home" id="3bQ-Yb-Tbm">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="MJE-qg-Ege"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMs-Yh-fj2">
-                                <rect key="frame" x="181" y="824" width="52" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ViT-lD-Jeu"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FaW-vO-AOt"/>
@@ -292,10 +300,10 @@
             </objects>
             <point key="canvasLocation" x="-207" y="825"/>
         </scene>
-        <!--View Controller-->
+        <!--Positivity View Controller-->
         <scene sceneID="tV4-0O-mnx">
             <objects>
-                <viewController id="vf4-XB-95A" sceneMemberID="viewController">
+                <viewController id="vf4-XB-95A" customClass="PositivityViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M8O-Xm-xcQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +315,13 @@
                                     <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="P O S I T I V I T Y   C O R N E R" id="Hcy-yy-RQT"/>
+                                    <navigationItem title="P O S I T I V I T Y   C O R N E R" id="Hcy-yy-RQT">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; home" id="EVF-Vi-sKr">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="v5P-TR-Cal"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="☺️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cra-fc-tVM">
@@ -331,35 +345,80 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e09-ii-hFr">
-                                <rect key="frame" x="72" y="592" width="55" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWk-L0-LkZ">
+                                <rect key="frame" x="78" y="403" width="49" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="3-4"/>
+                                <state key="normal" title="1-2">
+                                    <color key="titleColor" red="1" green="0.53678249330000005" blue="0.93206712550000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e09-ii-hFr">
+                                <rect key="frame" x="75" y="496" width="55" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="3-4">
+                                    <color key="titleColor" red="1" green="0.53678249330251204" blue="0.93206712550643611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49R-da-0Jg">
-                                <rect key="frame" x="259" y="577" width="55" height="52"/>
+                                <rect key="frame" x="78" y="591" width="55" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="5-6"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EN-lE-DPT">
-                                <rect key="frame" x="271" y="465" width="54" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="7-8"/>
+                                <state key="normal" title="5-6">
+                                    <color key="titleColor" red="1" green="0.53678249330000005" blue="0.93206712550000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcx-67-Nlu">
-                                <rect key="frame" x="326" y="464" width="70" height="52"/>
+                                <rect key="frame" x="78" y="777" width="70" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="9-10"/>
+                                <state key="normal" title="9-10">
+                                    <color key="titleColor" red="1" green="0.53678249330000005" blue="0.93206712550000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWk-L0-LkZ">
-                                <rect key="frame" x="20" y="463" width="49" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="awful" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfF-wm-Ppf">
+                                <rect key="frame" x="202" y="413" width="60" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="could be better" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5P-5F-WTa">
+                                <rect key="frame" x="202" y="506" width="173" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="im okay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qxh-v3-g7R">
+                                <rect key="frame" x="202" y="591" width="86" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pretty good" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbj-Q6-6MB">
+                                <rect key="frame" x="202" y="680" width="132" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="amazing!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnd-0Y-6ie">
+                                <rect key="frame" x="202" y="763" width="103" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EN-lE-DPT">
+                                <rect key="frame" x="78" y="695" width="54" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="1-2"/>
+                                <state key="normal" title="7-8">
+                                    <color key="titleColor" red="1" green="0.53678249330000005" blue="0.93206712550000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -376,5 +435,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="GHp-cf-zP9"/>
+        <segue reference="v5P-TR-Cal"/>
     </inferredMetricsTieBreakers>
 </document>
